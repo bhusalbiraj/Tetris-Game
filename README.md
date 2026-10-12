@@ -2,7 +2,7 @@
 
 A classic Tetris game built from scratch in C, with a graphical window powered by [raylib](https://www.raylib.com/). No game engine, just C and a lot of falling blocks.
 
-![Gameplay screenshot](screenshot.png)
+<img src="screenshot.png" alt="Gameplay screenshot" width="300">
 
 ## Features
 
@@ -25,7 +25,7 @@ A classic Tetris game built from scratch in C, with a graphical window powered b
 ## Project structure
 
 ```
-tetrisGame/
+Tetris-Game/
 ├── main.c             # Entry point and main game loop
 ├── initialization.c   # Global variables and game setup
 ├── functions.c        # Game logic (movement, collisions, scoring)
@@ -43,7 +43,7 @@ You need [raylib](https://www.raylib.com/) installed.
 **macOS**
 
 ```bash
-brew install raylib
+brew install raylib pkg-config
 git clone https://github.com/bhusalbiraj/Tetris-Game
 cd Tetris-Game
 gcc main.c -o game $(pkg-config --cflags --libs raylib)
